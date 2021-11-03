@@ -1,0 +1,14 @@
+.modalBox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: -150px;
+    transform: translateX(-50%);
+    transition: all .5s;
+}
+.modalBox-animated{
+    top: 50px;
+}

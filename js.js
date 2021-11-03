@@ -1,6 +1,6 @@
 // this is for loop test
 for (let x = 0; x < 10; x++) {
-    console.log(x * 10);
+    // console.log(x * 10);
 }
 
 // if test
@@ -17,4 +17,15 @@ function showNum(a, b) {
     return `sum of ${a} and ${b} is : ${a + b}`;
 }
 
-console.log(showNum(10,22));
+console.log(showNum(10, 22));
+
+// this function is for change show modal
+function showModal() {
+    let modalBox = document.querySelector('.modalBox');
+    modalBox.classList.toggle('modalBox-animated');
+}
+let btn = document.querySelector('.btnClick');
+
+btn.addEventListener('click', () => {
+    showModal();
+});
