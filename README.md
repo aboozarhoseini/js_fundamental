@@ -1,2 +1,2 @@
 # js_fundamental
-this is a test for learn fundamen
+> 💥💥 this is a test for learn fundamen ✨✨
